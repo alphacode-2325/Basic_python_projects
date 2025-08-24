@@ -1,5 +1,8 @@
 """
     Welcome to AlphaCode.
+
+    -->required python libraries<--
+        1. colorama: pip install colorama
     
     -->What is this program?<--
         This is a simple CLI based task manager program.
@@ -21,7 +24,7 @@
 
 #importing the required libraries
 import sqlite3
-from colorama import Fore, Style, init
+from colorama import Fore, Style, init #pip install colorama
 from datetime import date
 
 init(autoreset=True)
@@ -154,3 +157,4 @@ while True:
     else:
         print(Fore.RED + "invlid input! please enter a valid input...")
         
+
