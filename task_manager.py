@@ -3,6 +3,8 @@
 
     -->required python libraries<--
         1. colorama: pip install colorama
+        2. sqlite3: no need to install
+        3. datetime: no need to install
     
     -->What is this program?<--
         This is a simple CLI based task manager program.
